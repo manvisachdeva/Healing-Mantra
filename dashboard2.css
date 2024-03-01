@@ -1,0 +1,844 @@
+.dashboard2-child,
+.frame-child81 {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.dashboard2-child {
+  align-self: stretch;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.frame-child81 {
+  height: 130px;
+  width: 1440px;
+  background-color: var(--color-white);
+  z-index: 0;
+}
+.homepage15 {
+  height: 35px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.logo-rectangle3 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.homepage-parent8 {
+  height: 39px;
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.about-us14 {
+  height: 35px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.homepage-text3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.header-frame-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.header-frame4 {
+  height: 38px;
+  width: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.contact-text1,
+.contact-us28 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.contact-us28 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--header1);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  height: 35px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+  white-space: nowrap;
+}
+.contact-text1 {
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.contact-us-parent3 {
+  height: 38px;
+  width: 133px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.healing-mantra-high-resolution-icon14 {
+  width: 299px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -17px;
+  left: 0;
+  height: 147px;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangle-parent48 {
+  align-self: stretch;
+  height: 130px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-xl) var(--padding-2xl)
+    var(--padding-590xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.check-status-text1,
+.hi-name-text6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  filter: blur(114px);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.check-status-text1 {
+  left: 52px;
+  background-color: var(--color-skyblue);
+  filter: blur(134px);
+  width: 172px;
+  height: 186px;
+  z-index: 2;
+}
+.hi-name-text-parent1 {
+  height: 212px;
+  flex: 1;
+  position: relative;
+}
+.frame-wrapper16 {
+  width: 251px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -26px;
+  left: -71px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cartoon-doctor-rectangle-child {
+  width: 630px;
+  height: 302px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-paleturquoise-200);
+  display: none;
+  max-width: 100%;
+}
+.check-your-mental13,
+.hi-name14 {
+  height: 56px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.check-your-mental13 {
+  width: 421px;
+  height: 70px;
+  font-size: var(--font-size-6xl);
+  text-transform: capitalize;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.cartoon-doctor-rectangle {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-paleturquoise-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) var(--padding-sm) var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-53xl);
+  max-width: 100%;
+}
+.d-happy-cartoon-doctor-cartoon-icon13 {
+  width: 321px;
+  position: absolute;
+  margin: 0 !important;
+  top: -64px;
+  right: -50px;
+  border-radius: var(--br-12xl);
+  height: 359px;
+  object-fit: cover;
+  z-index: 4;
+}
+.frame-parent40 {
+  width: 631px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 631px;
+  max-width: 100%;
+}
+.hi-name-check {
+  position: absolute;
+  width: calc(100% - 5px);
+  top: 120px;
+  right: 0;
+  left: 5px;
+  border-radius: 50%;
+  background-color: var(--color-sandybrown);
+  filter: blur(84px);
+  height: 205px;
+  z-index: 1;
+}
+.fire-image-cute-cartoon-image-icon13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 186px;
+  height: 234px;
+  object-fit: cover;
+  z-index: 2;
+}
+.hi-name-check-parent {
+  height: 325px;
+  width: 186px;
+  position: absolute;
+  margin: 0 !important;
+  top: -20px;
+  left: 74px;
+}
+.frame-child82 {
+  width: 345px;
+  height: 297px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-peachpuff);
+  display: none;
+  max-width: 100%;
+}
+.status-checker {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-burlywood);
+  z-index: 1;
+}
+.div9 {
+  height: 42px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  margin-top: -47px;
+}
+.status-checker-parent {
+  width: 56px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mantra-streak14 {
+  height: 36px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+.day-frames2,
+.mantra-streak-wrapper2,
+.rectangle-parent49 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.mantra-streak-wrapper2 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-28xl);
+  font-size: var(--font-size-7xl);
+}
+.day-frames2,
+.rectangle-parent49 {
+  flex: 1;
+  max-width: 100%;
+}
+.rectangle-parent49 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-peachpuff);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-sm) var(--padding-mini) var(--padding-28xl)
+    var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-128xl);
+}
+.day-frames2 {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+}
+.mantra-streak-text5 {
+  height: 297px;
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 345px;
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+}
+.frame-parent39 {
+  width: 1106px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-5xs);
+  box-sizing: border-box;
+  min-height: 340px;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.frame-child83 {
+  width: 183px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-palegreen);
+  height: 151px;
+  display: none;
+}
+.day-112 {
+  height: 42px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.day-1-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 0 0;
+}
+.done-2872552-2389858-removebg-icon53 {
+  height: 85px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 2;
+}
+.done-2872552-2389858-removebg-wrapper24 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-3xl);
+}
+.frame-child84,
+.rectangle-parent50 {
+  width: 183px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-palegreen);
+}
+.rectangle-parent50 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-27xl) var(--padding-lg)
+    var(--padding-4xl);
+  box-sizing: border-box;
+}
+.frame-child84 {
+  position: relative;
+  height: 151px;
+  display: none;
+}
+.day-212 {
+  height: 42px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.done-2872552-2389858-removebg-icon54 {
+  height: 97px;
+  width: 99px;
+  position: absolute;
+  margin: 0 !important;
+  right: -43px;
+  bottom: -91px;
+  object-fit: cover;
+  z-index: 2;
+}
+.day-2-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frame-child85,
+.rectangle-parent51 {
+  width: 183px;
+  border-radius: var(--br-mini);
+  height: 151px;
+}
+.rectangle-parent51 {
+  background-color: var(--color-palegreen);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-xl);
+  box-sizing: border-box;
+}
+.frame-child85 {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.day-311 {
+  height: 42px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.day-3-wrapper9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child86 {
+  height: 40px;
+  width: 124px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.div10 {
+  height: 42px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.rectangle-parent53 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-26xl) 0 var(--padding-24xl);
+  z-index: 1;
+}
+.frame-wrapper17 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xs);
+}
+.frame-child87,
+.rectangle-parent52 {
+  background-color: var(--color-gainsboro);
+  width: 183px;
+  border-radius: var(--br-mini);
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-parent52 {
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-7xs) var(--padding-11xl) var(--padding-14xl)
+    var(--padding-lg);
+  gap: var(--gap-9xl);
+}
+.frame-child87 {
+  border: 0;
+  height: 151px;
+  outline: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-7xs) var(--padding-base);
+  font-family: var(--header1);
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.frame-child88,
+.frame-parent41 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-parent41 {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-child88 {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  height: 151px;
+  width: auto;
+  outline: 0;
+  border-radius: var(--br-mini);
+  padding: 0 var(--padding-lg);
+  font-family: var(--header1);
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.frame-child88,
+.frame-child89,
+.frame-child90,
+.frame-wrapper18 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-wrapper18 {
+  width: 192px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-4xs) 0 0;
+}
+.frame-child89,
+.frame-child90 {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  height: 151px;
+  width: 183px;
+  outline: 0;
+  border-radius: var(--br-mini);
+  font-family: var(--header1);
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.frame-child89 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-6xl);
+}
+.frame-child90 {
+  padding: 0 var(--padding-11xl);
+}
+.contact-form,
+.frame-child90,
+.frame-parent42 {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-parent42 {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.contact-form {
+  width: 761px;
+  padding: 0 0 0 var(--padding-16xl);
+  box-sizing: border-box;
+}
+.contact-form,
+.day-frames-wrapper,
+.day-frames3 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.day-frames3 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-30xl);
+}
+.day-frames-wrapper {
+  width: 1058px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-20xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.contact-details-child {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 246px;
+  display: none;
+}
+.contact-us29 {
+  height: 28px;
+  width: 268px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.contact-us-wrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-973xl) 0 var(--padding-xl);
+}
+.email-id-healingmantragmail13,
+.phone-no-xxxxxx785014 {
+  margin: 0;
+}
+.email-id-healingmantragmail-container14 {
+  width: 409px;
+  height: 101px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  padding-left: var(--padding-xl);
+  z-index: 1;
+}
+.contact-details {
+  align-self: stretch;
+  background-color: var(--color-white);
+  align-items: flex-end;
+  padding: var(--padding-18xl) var(--padding-5xs) var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-36xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-piazzolla);
+}
+.contact-details,
+.dashboard2,
+.frame-parent38 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent38 {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+}
+.dashboard2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslateblue-100);
+  overflow: hidden;
+  align-items: flex-start;
+  gap: var(--gap-55xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .rectangle-parent48 {
+    padding-left: var(--padding-285xl);
+    box-sizing: border-box;
+  }
+  .contact-us-wrapper2 {
+    padding-right: var(--padding-477xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hi-name14 {
+    font-size: var(--font-size-13xl);
+  }
+  .frame-parent40 {
+    flex: 1;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .div9 {
+    font-size: var(--font-size-5xl);
+  }
+  .mantra-streak-text5 {
+    flex: 1;
+  }
+  .frame-parent39 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .day-112,
+  .day-212,
+  .day-311,
+  .div10 {
+    font-size: var(--font-size-5xl);
+  }
+  .frame-parent41 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent48 {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-133xl);
+    box-sizing: border-box;
+  }
+  .frame-parent40 {
+    min-width: 100%;
+  }
+  .frame-parent42 {
+    flex-wrap: wrap;
+  }
+  .day-frames3 {
+    gap: var(--gap-5xl);
+  }
+  .contact-us-wrapper2 {
+    padding-right: var(--padding-229xl);
+    box-sizing: border-box;
+  }
+  .contact-details {
+    gap: var(--gap-8xl);
+  }
+  .frame-parent38 {
+    gap: var(--gap-5xl);
+  }
+  .dashboard2 {
+    gap: var(--gap-18xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangle-parent48 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .hi-name14 {
+    font-size: var(--font-size-5xl);
+  }
+  .check-your-mental13 {
+    font-size: var(--body-size);
+  }
+  .cartoon-doctor-rectangle {
+    gap: var(--gap-17xl);
+  }
+  .div9 {
+    font-size: var(--font-size-lg);
+  }
+  .mantra-streak14 {
+    font-size: var(--font-size-2xl);
+  }
+  .mantra-streak-wrapper2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .rectangle-parent49 {
+    gap: var(--gap-54xl);
+  }
+  .mantra-streak-text5 {
+    min-width: 100%;
+  }
+  .day-112,
+  .day-212,
+  .day-311,
+  .div10 {
+    font-size: var(--font-size-lg);
+  }
+  .contact-us29 {
+    font-size: var(--font-size-lgi);
+  }
+  .contact-us-wrapper2 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .email-id-healingmantragmail-container14 {
+    font-size: var(--font-size-lgi);
+  }
+  .dashboard2 {
+    gap: var(--gap-lg);
+  }
+}

@@ -1,0 +1,519 @@
+.frame-child5 {
+  height: 144px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.header-text,
+.homepage10 {
+  position: relative;
+  z-index: 1;
+}
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+.homepage10 {
+  height: 35px;
+  display: inline-block;
+}
+.header-text {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.homepage-group {
+  height: 39px;
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.about-us9 {
+  height: 35px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.about-us-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.frame-child6 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.about-us-frame-parent {
+  height: 38px;
+  width: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.color-of-the-day2,
+.contact-us10 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.contact-us10 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--header1);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  height: 35px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+  white-space: nowrap;
+}
+.color-of-the-day2 {
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.logo-frame2 {
+  height: 38px;
+  width: 133px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.healing-mantra-high-resolution-icon9 {
+  width: 299px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -3px;
+  left: 59px;
+  height: 147px;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-header {
+  align-self: stretch;
+  height: 144px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-14xl) var(--padding-xl) var(--padding-14xl)
+    var(--padding-590xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.colour-of-the8,
+.day-7 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.day-7 {
+  height: 194px;
+  width: 412px;
+  min-width: 412px;
+  z-index: 1;
+}
+.colour-of-the8 {
+  margin: 0;
+  width: 394px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.healthy-breakfast7 {
+  width: 436px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.go-for-a,
+.healthy-breakfast8,
+.mindful-breathing-exercisemed8 {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.mindful-breathing-exercisemed8 {
+  align-self: stretch;
+  height: 90px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.go-for-a,
+.healthy-breakfast8 {
+  height: 40px;
+  max-width: 100%;
+}
+.healthy-breakfast8 {
+  width: 353px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.go-for-a {
+  flex: 1;
+  z-index: 1;
+}
+.go-for-a-short-triptrek-wrapper {
+  width: 414px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.make-a-to {
+  height: 39px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  z-index: 1;
+}
+.notepaper-rectangle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-37xl);
+  min-height: 287px;
+  max-width: 100%;
+}
+.write-your-thoughts3 {
+  width: 391px;
+  height: 39px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.breathing-exercise,
+.focus-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.focus-frame {
+  align-items: flex-start;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.breathing-exercise {
+  align-items: center;
+  gap: 351px;
+}
+.mindfulness-frame,
+.next-frame1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.mindfulness-frame {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 463px;
+  font-size: var(--font-size-21xl);
+}
+.next-frame1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-109xl);
+  text-align: left;
+  font-size: var(--font-size-109xl);
+  color: var(--color-sandybrown);
+  font-family: var(--font-bebas-neue);
+}
+.blank-line9,
+.dont-be-pushed {
+  margin: 0;
+}
+.dont-be-pushed-container {
+  margin: 0;
+  height: 196px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.download-premium-vector-of-gra-icon8 {
+  position: absolute;
+  height: calc(100% - 0.1px);
+  top: 0;
+  bottom: 0.1px;
+  left: 291px;
+  border-radius: var(--br-472xl-5);
+  max-height: 100%;
+  width: 1138.4px;
+  object-fit: contain;
+}
+.download-1-removebg-preview-icon1 {
+  position: absolute;
+  top: 287px;
+  left: 0;
+  width: 706px;
+  height: 578px;
+  object-fit: cover;
+  z-index: 3;
+}
+.fear-frame {
+  height: 1058px;
+  width: 1429px;
+  position: absolute;
+  margin: 0 !important;
+  top: -900px;
+  right: -393px;
+}
+.quote-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.next-text-child {
+  height: 64px;
+  width: 236px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.next9 {
+  height: 42px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--header1);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 3;
+}
+.next-text3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-35xl) var(--padding-2xs)
+    var(--padding-62xl);
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 164px;
+  left: 455px;
+  border-radius: var(--br-mini);
+  width: 236px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.next-text3:hover {
+  background-color: var(--color-silver);
+}
+.quote-frame-next {
+  height: 228px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.quote-frame,
+.sub-frame-days,
+.sunday1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.quote-frame {
+  width: 965px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-patua-one);
+}
+.sub-frame-days,
+.sunday1 {
+  flex-direction: column;
+}
+.sub-frame-days {
+  width: 1272px;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  gap: 132px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.sunday1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 0 0 267px;
+  gap: var(--gap-44xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frame-header {
+    padding-left: var(--padding-285xl);
+    box-sizing: border-box;
+  }
+  .next-frame1 {
+    gap: var(--gap-45xl);
+  }
+  .sub-frame-days {
+    gap: var(--gap-47xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .day-7 {
+    font-size: var(--font-size-32xl);
+    flex: 1;
+  }
+  .colour-of-the8 {
+    font-size: var(--font-size-13xl);
+  }
+  .next-frame1 {
+    flex-wrap: wrap;
+  }
+  .dont-be-pushed-container {
+    font-size: var(--font-size-13xl);
+  }
+  .next9 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-header {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-133xl);
+    box-sizing: border-box;
+  }
+  .day-7 {
+    min-width: 100%;
+  }
+  .breathing-exercise {
+    gap: var(--gap-156xl);
+  }
+  .mindfulness-frame {
+    min-width: 100%;
+  }
+  .next-frame1 {
+    gap: var(--gap-13xl);
+  }
+  .sub-frame-days {
+    gap: var(--gap-14xl);
+  }
+  .sunday1 {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-header {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .day-7 {
+    font-size: var(--font-size-13xl);
+  }
+  .colour-of-the8 {
+    font-size: var(--font-size-5xl);
+  }
+  .go-for-a,
+  .healthy-breakfast8,
+  .make-a-to,
+  .mindful-breathing-exercisemed8 {
+    font-size: var(--font-size-3xl);
+  }
+  .notepaper-rectangle {
+    gap: var(--gap-9xl);
+  }
+  .write-your-thoughts3 {
+    font-size: var(--font-size-3xl);
+  }
+  .breathing-exercise {
+    gap: 88px;
+  }
+  .next-frame1 {
+    gap: var(--gap-base);
+  }
+  .dont-be-pushed-container {
+    font-size: var(--font-size-5xl);
+  }
+  .next9 {
+    font-size: var(--font-size-lg);
+  }
+  .sub-frame-days,
+  .sunday1 {
+    gap: var(--gap-base);
+  }
+}

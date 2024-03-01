@@ -1,0 +1,615 @@
+.content-frame-child {
+  height: 144px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.homepage9 {
+  height: 35px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+.about-us-text2 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.homepage-text2 {
+  height: 39px;
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.about-us8 {
+  height: 35px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.logo-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.mental-health-process {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.contact-us-text2 {
+  height: 38px;
+  width: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.contact-us9,
+.grey-notepaper-rectangle {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.contact-us9 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--header1);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  height: 35px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+  white-space: nowrap;
+}
+.grey-notepaper-rectangle {
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.short-break-frame {
+  height: 38px;
+  width: 133px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.healing-mantra-high-resolution-icon8 {
+  width: 299px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -5px;
+  left: 62px;
+  height: 147px;
+  object-fit: cover;
+  z-index: 1;
+}
+.content-frame {
+  align-self: stretch;
+  height: 144px;
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-14xl) var(--padding-xl) var(--padding-14xl)
+    var(--padding-590xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-19xl);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.content-frame,
+.day-41,
+.exercise-frame1 {
+  display: flex;
+  max-width: 100%;
+}
+.day-41 {
+  height: 156px;
+  width: 675px;
+  position: relative;
+  align-items: flex-end;
+  flex-shrink: 0;
+  padding-left: var(--padding-xl);
+  z-index: 1;
+}
+.exercise-frame1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.blank-line7,
+.mental-health-is1 {
+  margin: 0;
+}
+.mental-health-is-container1 {
+  margin: 0;
+  width: 555px;
+  height: 155px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: var(--header1);
+  color: var(--color-white);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.color-of-the-day1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 706px;
+  min-width: 460px;
+  max-width: 100%;
+}
+.colour-of-the7 {
+  margin: 0;
+  height: 48px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.cheat-meal-text1 {
+  align-self: stretch;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-4xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-21xl);
+  color: var(--color-khaki);
+  font-family: var(--font-bebas-neue);
+}
+.cheat-meal-for1,
+.mindful-breathing-exercisemed7 {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.mindful-breathing-exercisemed7 {
+  align-self: stretch;
+  height: 90px;
+}
+.cheat-meal-for1 {
+  width: 373px;
+  height: 40px;
+  max-width: 100%;
+  padding-right: var(--padding-xl);
+}
+.cycling-visit-place-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.short-outdoor-break {
+  width: 408px;
+  height: 40px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.cycling,
+.explore-a-new1,
+.short-outdoor-break,
+.visit-a-place1 {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  z-index: 1;
+}
+.cycling {
+  width: 260px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.explore-a-new1,
+.visit-a-place1 {
+  height: 39px;
+}
+.explore-a-new1 {
+  flex: 1;
+  max-width: 100%;
+}
+.movie-guessing-frame {
+  width: 442px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.remove-bg-preview-rectangle {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-35xl);
+}
+.meditation-text1,
+.remove-bg-preview-rectangle,
+.weekday-and-mental-health {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.meditation-text1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+  min-width: 463px;
+  margin-left: -116px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.weekday-and-mental-health {
+  width: 1303px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 20px;
+}
+.main-frame2,
+.sub-header {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sub-header {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 0 2px;
+  gap: var(--gap-37xl);
+  flex-shrink: 0;
+}
+.main-frame2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  text-align: left;
+  font-size: var(--font-size-109xl);
+  color: var(--color-khaki);
+  font-family: var(--font-bebas-neue);
+}
+.download-premium-vector-of-gra-icon7 {
+  position: absolute;
+  height: calc(100% - 0.5px);
+  top: 0;
+  bottom: 0.5px;
+  left: 344px;
+  border-radius: var(--br-472xl-5);
+  max-height: 100%;
+  width: 1132.6px;
+  object-fit: contain;
+}
+.removebg-preview-1-icon1 {
+  position: absolute;
+  top: 243px;
+  left: 0;
+  width: 615px;
+  height: 496px;
+  object-fit: cover;
+  z-index: 1;
+}
+.next-text2 {
+  width: 1477px;
+  height: 1052px;
+  position: absolute;
+  margin: 0 !important;
+  top: 310px;
+  right: -92px;
+}
+.task-of-the2 {
+  margin: 0;
+  height: 56px;
+  position: relative;
+  font-size: inherit;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.task-of-the-day-container {
+  width: 1038px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+}
+.guess-the-movie2 {
+  height: 42px;
+  position: relative;
+  display: inline-block;
+}
+.movie-guess-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bande-hain-hum,
+.blank-line8 {
+  margin: 0;
+}
+.bande-hain-hum-container {
+  width: 989px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.next-text-frame {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  height: 222px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-mini);
+}
+.umeedo-support-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.frame-child4 {
+  height: 64px;
+  width: 236px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.next8 {
+  height: 42px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--header1);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-button,
+.next-frame {
+  display: flex;
+  flex-direction: row;
+}
+.frame-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-35xl) var(--padding-2xs)
+    var(--padding-62xl);
+  background-color: var(--color-gainsboro);
+  width: 236px;
+  border-radius: var(--br-mini);
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.frame-button:hover {
+  background-color: var(--color-silver);
+}
+.next-frame {
+  width: 301px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frame-section,
+.thursday,
+.umeedo-support-frame-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.umeedo-support-frame-parent {
+  align-self: stretch;
+  align-items: center;
+  gap: 40px;
+  max-width: 100%;
+  font-family: var(--font-permanent-marker);
+}
+.frame-section,
+.thursday {
+  box-sizing: border-box;
+}
+.frame-section {
+  width: 1105px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: 65px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--header1);
+}
+.thursday {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  align-items: center;
+  padding: 0 0 40px;
+  gap: 213px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1100px) {
+  .content-frame {
+    padding-left: var(--padding-285xl);
+    box-sizing: border-box;
+  }
+  .frame-section {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 1025px) {
+  .day-41 {
+    font-size: var(--font-size-32xl);
+  }
+  .colour-of-the7,
+  .mental-health-is-container1 {
+    font-size: var(--font-size-13xl);
+  }
+  .meditation-text1 {
+    margin-left: 0;
+  }
+  .task-of-the2 {
+    font-size: var(--font-size-13xl);
+  }
+  .bande-hain-hum-container,
+  .guess-the-movie2,
+  .next8 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .content-frame {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-133xl);
+    box-sizing: border-box;
+  }
+  .color-of-the-day1 {
+    gap: 353px;
+    min-width: 100%;
+  }
+  .remove-bg-preview-rectangle {
+    gap: var(--gap-8xl);
+  }
+  .meditation-text1 {
+    min-width: 100%;
+  }
+  .meditation-text1,
+  .sub-header {
+    gap: var(--gap-9xl);
+  }
+  .umeedo-support-frame-parent {
+    gap: var(--gap-xl);
+  }
+  .frame-section {
+    gap: var(--gap-base);
+  }
+  .thursday {
+    gap: 106px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .content-frame {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .day-41 {
+    font-size: var(--font-size-13xl);
+  }
+  .mental-health-is-container1 {
+    font-size: var(--font-size-5xl);
+  }
+  .color-of-the-day1 {
+    gap: 176px;
+  }
+  .colour-of-the7 {
+    font-size: var(--font-size-5xl);
+  }
+  .cheat-meal-for1,
+  .cycling,
+  .explore-a-new1,
+  .mindful-breathing-exercisemed7,
+  .short-outdoor-break,
+  .visit-a-place1 {
+    font-size: var(--font-size-3xl);
+  }
+  .task-of-the2 {
+    font-size: var(--font-size-5xl);
+  }
+  .bande-hain-hum-container,
+  .guess-the-movie2,
+  .next8 {
+    font-size: var(--font-size-lg);
+  }
+  .frame-button {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .thursday {
+    gap: 53px;
+  }
+}

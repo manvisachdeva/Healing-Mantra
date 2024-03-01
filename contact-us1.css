@@ -1,0 +1,160 @@
+.about-us33,
+.contact-us50,
+.homepage34 {
+  position: absolute;
+  top: 70px;
+  left: 965px;
+  font-family: var(--font-patua-one);
+}
+.contact-us50,
+.homepage34 {
+  left: 1123px;
+}
+.homepage34 {
+  left: 775px;
+}
+.line-icon {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: contain;
+  display: none;
+}
+
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.contact-us-child5,
+.contact-us-child6,
+.contact-us-child7 {
+  position: absolute;
+  top: 108.5px;
+  left: 772.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 145px;
+  height: 1px;
+}
+.contact-us-child6,
+.contact-us-child7 {
+  top: 107.5px;
+  left: 956.5px;
+  width: 130px;
+}
+.contact-us-child7 {
+  left: 1125.5px;
+  width: 131px;
+}
+.contact-us-removebg-preview-1-icon {
+  position: absolute;
+  top: 118px;
+  left: 803px;
+  width: 569px;
+  height: 581px;
+  object-fit: cover;
+}
+.name1 {
+  position: absolute;
+  top: 268px;
+  left: 188px;
+  color: var(--color-snow-200);
+}
+.contact-us-child8 {
+  position: absolute;
+  top: 326px;
+  left: 172px;
+  border-radius: var(--br-xl);
+  width: 500px;
+  height: 75px;
+  background-color: var(--color-gainsboro);
+}
+.email {
+  position: absolute;
+  top: 436px;
+  left: 188px;
+  color: var(--color-snow-200);
+}
+.contact-us-child9 {
+  position: absolute;
+  top: 494px;
+  left: 172px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  width: 500px;
+  height: 75px;
+}
+.query {
+  position: absolute;
+  top: 604px;
+  left: 187px;
+  color: var(--color-mistyrose);
+}
+.contact-us-child10 {
+  position: absolute;
+  top: 662px;
+  left: 172px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  width: 586px;
+  height: 190px;
+}
+.contact-us-child11 {
+  position: absolute;
+  top: 903px;
+  left: 614px;
+  background-color: var(--color-snow-200);
+  width: 212px;
+  height: 62px;
+}
+.submit1 {
+  position: absolute;
+  top: 916px;
+  left: 670px;
+  text-align: center;
+}
+.contact-us51 {
+  position: absolute;
+  top: 161px;
+  left: 172px;
+  font-size: var(--header1-size);
+  text-transform: capitalize;
+  color: var(--color-snow-200);
+}
+.healing-mantra-high-resolution-icon33 {
+  position: absolute;
+  top: 0;
+  left: 54px;
+  width: 299px;
+  height: 147px;
+  object-fit: cover;
+}
+.contact-us49 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  height: 1047px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}

@@ -1,0 +1,202 @@
+.about-us32,
+.contact-us48 {
+  position: absolute;
+  top: 70px;
+  left: 965px;
+}
+.contact-us48 {
+  left: 1123px;
+}
+.contact-us-item,
+.homepage33 {
+  position: absolute;
+  top: 70px;
+  left: 775px;
+}
+.contact-us-item {
+  top: 110px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: contain;
+  display: none;
+}
+
+a:link {
+  color:black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.contact-us-inner {
+  position: absolute;
+  top: 108.5px;
+  left: 772.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 145px;
+  height: 1px;
+}
+.healing-mantra-high-resolution {
+  position: absolute;
+  top: 118px;
+  left: 0;
+  width: 338px;
+  height: 287px;
+}
+.images-1-removebg-preview-1-icon {
+  position: absolute;
+  top: 1629px;
+  left: 1123px;
+  width: 266px;
+  height: 190px;
+  object-fit: cover;
+}
+.contact-us-child1,
+.contact-us-child2 {
+  position: absolute;
+  top: 107.5px;
+  left: 956.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 130px;
+  height: 1px;
+}
+.contact-us-child2 {
+  left: 1125.5px;
+  width: 131px;
+}
+.images-1-removebg-preview-1-icon1 {
+  position: absolute;
+  top: 1629px;
+  left: 54px;
+  width: 266px;
+  height: 190px;
+  object-fit: cover;
+}
+.contact-us-child3 {
+  position: absolute;
+  top: 326px;
+  left: 242px;
+  width: 100px;
+  height: 100px;
+}
+.wrapper-rectangle-18-child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.025);
+}
+.wrapper-rectangle-18 {
+  position: absolute;
+  top: 486px;
+  left: 150px;
+  width: 1140px;
+  height: 1315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-us-child4 {
+  position: absolute;
+  top: 215px;
+  left: 143px;
+  border-radius: 40px;
+  background-color: var(--color-snow-200);
+  width: 1140px;
+  height: 222px;
+}
+.equation-of,
+.well-done-you {
+  margin: 0;
+}
+.well-done-you-container {
+  position: absolute;
+  top: 272px;
+  left: 189px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-patrick-hand);
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 1123px;
+}
+.consume-flavourful-food-and-he,
+.dont-overthink,
+.get-together-with-close-ones,
+.mindful-breathing-exercisemed15,
+.play-your-favourite-sport,
+.short-outdoor-break2,
+.smile-more-cry-less,
+.walk-for-1-km {
+  margin-bottom: 0;
+}
+.mindful-breathing-exercisemed14 {
+  margin: 0;
+  font-family: inherit;
+  padding-left: 85px;
+}
+.blank-line46 {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+}
+.mindful-breathing-exercisemed-container {
+  position: absolute;
+  top: 558px;
+  left: 203px;
+  font-family: var(--font-patrick-hand);
+  font-size: var(--font-size-45xl);
+}
+.blank-line47,
+.try-to-be {
+  margin: 0;
+}
+.try-to-be-container {
+  position: absolute;
+  top: 1735px;
+  left: 298px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--header1);
+  color: var(--color-white);
+}
+.download-6-removebg-preview-icon,
+.healing-mantra-high-resolution-icon32 {
+  position: absolute;
+  top: -15px;
+  left: -7px;
+  width: 318px;
+  height: 150px;
+  object-fit: cover;
+}
+.download-6-removebg-preview-icon {
+  top: 105px;
+  left: 0;
+  width: 183px;
+  height: 182px;
+}
+.contact-us47 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  height: 1801px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-patua-one);
+}

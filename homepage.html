@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./homepage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Permanent Marker:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Paytone One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rakkas:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Orelega One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas Neue:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patua One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patrick Hand:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="homepage21" data-animate-on-scroll>
+      <div class="homepage-child" style="width: 100%;"></div>
+      <a href="about-us.html"><div class="about-us23"><a href="./about-us.html">About us</a></div></a>
+      <a href="contact-us1.html"><div class="contact-us26"><a href="./contact-us1.html">Contact us</a></div></a>
+      <a href="homepage.html"><div class="homepage22"><a href="./homepage.html">Homepage</a></div></a>
+      <img class="homepage-item" alt="" src="./public/line-1.svg" />
+
+      <div class="the-only-journey">The only journey is the journey within</div>
+      <img
+        class="cute-woman-meditation-yoga-car-icon"
+        alt=""
+        src="./public/cutewomanmeditationyogacartoonvectoriconillustrationpeoplesporticonconceptisolatedpremiumvectorflatcartoonstyle-1386764062removebgpreview-1@2x.png"
+      />
+
+      <div class="homepage-inner"></div>
+      <a href="signuup.html"><div class="get-started">Get Started</div></a>
+      <div class="elevate-your-well-being">
+        Elevate your well-being with Healing Mantra . Our tech- driven solutions
+        make mental wellness easy, personalized, and part of your daily life.
+        Welcome to a happier, healthier you.
+      </div>
+      <div class="homepage-child1"></div>
+      <div class="homepage-child2"></div>
+      <div class="homepage-child3"></div>
+      <img
+        class="healing-mantra-high-resolution-icon22"
+        alt=""
+        src="./public/healingmantrahighresolutionlogoremovebgpreview-3@2x.png"
+      />
+
+      <div class="homepage-child4" style="width: 100%;"></div>
+      <div class="contact-us27">CONTACT US:</div>
+      <div class="email-id-healingmantragmail-container2">
+        <p class="email-id-healingmantragmail2">
+          Email Id- healingmantra@gmail.com
+        </p>
+        <p class="email-id-healingmantragmail2">Phone no.-xxxxxx7850</p>
+      </div>
+    </div>
+
+    <script>
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

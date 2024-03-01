@@ -1,0 +1,9 @@
+.jab-log-tumhare {
+  width: 1042px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-permanent-marker);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}

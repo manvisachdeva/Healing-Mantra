@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./tuesday1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Paytone One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patua One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas Neue:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Permanent Marker:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rakkas:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Orelega One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patrick Hand:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="tuesday1">
+      <header class="tuesday-frame">
+        <div class="tuesday-frame-child"></div>
+        <div class="empty-frame">
+          <div class="homepage3"><a href="./homepage.html">Homepage</a></div>
+          <div class="homepage-text"></div>
+        </div>
+        <div class="line">
+          <div class="about-us-frame">
+            <div class="about-us2"><a href="./homepage.html">About us</a></div>
+          </div>
+          <div class="contact-us-text"></div>
+        </div>
+        <div class="logo-rectangle">
+          <a href="./contact-us1.html">Contact us</a>
+          <div class="mindfulness-benefits-rectangle"></div>
+        </div>
+        <img
+          class="healing-mantra-high-resolution-icon2"
+          loading="eager"
+          alt=""
+          src="./public/healingmantrahighresolutionlogoremovebgpreview-3@2x.png"
+        />
+      </header>
+      <main class="download-vector-rectangle">
+        <img
+          class="download-premium-vector-of-gra-icon1"
+          alt=""
+          src="./public/download-premium-vector-of-gray-lined-notepaper-journal-sticker-vector-by-sasi-about-scrapbook-background--scrapbook-lines--sticky-note--washi-tape-grey--and-planner-sticker-2390917removebgpreview-11@2x.png"
+        />
+
+        <img
+          class="benefits-of-mindfulness-prezi-icon"
+          alt=""
+          src="./public/benefitsofmindfulnessprezicalmmind1024x1024-1@2x.png"
+        />
+      </main>
+      <div class="day-text-wrapper">
+        <div class="day-text">
+          <div class="color-of-the-day-text">
+            <div class="day-2">DAY-2</div>
+            <div class="healthy-breakfast-text">
+              <h3 class="colour-of-the1">colour of the day-red</h3>
+              <div class="journal-text">
+                <div class="healing-process-reminder">
+                  <div class="mindful-breathing-exercisemed1">
+                    <label><input type="checkbox" name="mindful-breathing-exercise"> Mindful breathing exercise (Meditation)</label>
+                  </div>
+                  <div class="healthy-breakfast-wrapper">
+                    <div class="healthy-breakfast1"> <label><input type="checkbox" name="healthyBreakfast"> Healthy Breakfast</label></div>
+                  </div>
+                  <div class="frame-div">
+                    <div class="gardening-wrapper">
+                      <div class="gardening1">  <label><input type="checkbox" name="gardening"> Gardening</label></div>
+                    </div>
+                    <div class="write-your-thoughts">
+                      <label><input type="checkbox" name="writeYourThoughts"> Write Your Thoughts in a Journal</label>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="daily-mindfulness">
+            <h3 class="healing-is-not-container">
+              <p class="healing-is-not">
+                Healing is not an overnight process. It is a daily cleansing of
+                pain, it is a daily healing of your life
+              </p>
+              <p class="blank-line1">&nbsp;</p>
+            </h3>
+            <div class="healing-process">
+              <button class="color-of-the-day" onclick="submitCheckboxes()" disabled>
+                <div class="color-of-the-day-child"></div>
+                <a href="anxiety2.html"><div class="next1">NEXT</div></a>
+              </button>
+            
+              <script>
+                function validateCheckboxes() {
+                  var checkboxes = document.querySelectorAll('.healthy-breakfast-text input[type="checkbox"]');
+                  var nextButton = document.querySelector('.color-of-the-day');
+            
+                  // Check if all checkboxes are checked
+                  if (Array.from(checkboxes).every(checkbox => checkbox.checked)) {
+                    // Enable the button
+                    nextButton.classList.add('enabled');
+                    nextButton.removeAttribute('disabled');
+                  } else {
+                    // Disable the button if not all checkboxes are checked
+                    nextButton.classList.remove('enabled');
+                    nextButton.setAttribute('disabled', 'disabled');
+                  }
+                }
+            
+                function submitCheckboxes() {
+                  var checkboxes = document.querySelectorAll('.healthy-breakfast-text input[type="checkbox"]');
+                  var nextButton = document.querySelector('.color-of-the-day');
+            
+                  // Check if all checkboxes are checked
+                  if (Array.from(checkboxes).every(checkbox => checkbox.checked)) {
+                    // Redirect to the next page here
+                    window.location.href = 'anxiety2.html';
+                  } else {
+                    alert('Please check all checkboxes before proceeding.');
+                  }
+                }
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

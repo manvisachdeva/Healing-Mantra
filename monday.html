@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./monday.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Paytone One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patua One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas Neue:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Permanent Marker:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rakkas:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Orelega One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patrick Hand:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="monday">
+      <header class="weekday-label2">
+        <div class="weekday-label-child"></div>
+        <div class="homepage-parent2">
+          <div class="homepage15"><a href="./homepage.html">Homepage</div>
+          <div class="homepage-text3"></a></div>
+        </div>
+        <div class="line2">
+          <div class="about-us-text3">
+            <div class="about-us14"><a href="./homepage.html">About us</div>
+          </div>
+          <div class="logo-rectangle5"></a></div>
+        </div>
+        <div class="day-label2">
+          <div class="contact-us15"><a href="./homepage.html">Contact us</div>
+          <div class="notepaper-rectangle1"></a>
+            <div class="breathing-exercise-text"></div>
+          </div>
+        </div>
+        <img
+          class="healing-mantra-high-resolution-icon14"
+          alt=""
+          src="./public/healingmantrahighresolutionlogoremovebgpreview-3@2x.png"
+        />
+      </header>
+      <main class="walk-break-text">
+        <section class="relaxing-music-text">
+          <div class="its-okay-label">
+            <div class="day-11">DAY-1</div>
+            <div class="movie-name-input">
+              <div class="quote-rectangle">
+                <div class="colour-of-the-day-text">
+                  <h3 class="colour-of-the13">COLOUR OF THE DAY-WHITE</h3>
+                </div>
+                <div class="download-premium-texture">
+                  <div class="mindful-breathing-exercise">
+                    <div class="healing-mantra-logo1">
+                      <img
+                        class="download-1-removebg-preview-icon3"
+                        alt=""
+                        src="./public/download--1-removebgpreview-1@2x.png"
+                      />
+
+                      <img
+                        class="download-premium-vector-of-gra-icon13"
+                        loading="eager"
+                        alt=""
+                        src="./public/download-premium-vector-of-gray-lined-notepaper-journal-sticker-vector-by-sasi-about-scrapbook-background--scrapbook-lines--sticky-note--washi-tape-grey--and-planner-sticker-2390917removebgpreview-12@2x.png"
+                      />
+                    </div>
+                    <div class="mindful-breathing-exercisemed13">
+                     <label><input type="checkbox" name="mindful-breathing-exercise"> Mindful breathing exercise(Meditation)</label>
+                    </div>
+                  </div>
+                  <div class="healthy-breakfast-image">
+                    <div class="healthy-breakfast14">  <label><input type="checkbox" name="healthyBreakfast"> Healthy Breakfast</label>
+                    </div>
+                  </div>
+                  <div class="relaxing-music-image">
+                    <div class="short-outdoor-break1"><label><input type="checkbox" name="shortOutdoorBreak"> Short Outdoor Break</label></div>
+                    <div class="walk-for-12"> <label><input type="checkbox" name="walkFor1km"> Walk for 1 km</label></div>
+                    <div class="draw-your-thoughts2"> <label><input type="checkbox" name="drawYourThoughts"> Draw Your Thoughts</label></div>
+                  </div>
+                  <div class="relaxing-music-break2">  <label><input type="checkbox" name="relaxingMusicBreak"> Relaxing Music Break</label></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="task-of-the-day1">
+          <h3 class="its-okay-not-container1">
+            <p class="its-okay-not1">
+              It's okay not to be okay as long as you are not giving up
+            </p>
+            <p class="blank-line18">&nbsp;</p>
+          </h3>
+        </div>
+        <section class="sometimes-wrong">
+          <div class="next-step1">
+            <div class="t-o-f-title">
+              <h3 class="task-of-the6">Task OF the Day</h3>
+            </div>
+            <section class="guess-the-movie6">
+              Guess the movie name and let me know your POV about this
+            </section>
+          
+            <section class="empty-rectangle2">
+              <div class="sometimes-the-wrong">
+                “Sometimes the wrong train takes you to the right destination”
+              </div>
+          
+              <!-- Replace textarea with input for a single-line input -->
+              <textarea class="next-text6" placeholder="Enter your data..." oninput="validateInput()"></textarea>
+            </section>
+          
+            <div class="new-task">
+              <!-- Styled button for submission -->
+              <button class="input-frame" onclick="submitData()" disabled>
+                <div class="input-frame-child"></div>
+                <a href="dashboard1.html"><div class="next15">NEXT</div></a>
+              </button>
+            </div>
+          
+            <script>
+              function validateInput() {
+                var userInput = document.querySelector('.next-text6').value;
+                var submitButton = document.querySelector('.input-frame');
+          
+                if (userInput.trim() !== '') {
+                  submitButton.classList.add('enabled');
+                  submitButton.removeAttribute('disabled');
+                } else {
+                  submitButton.classList.remove('enabled');
+                  submitButton.setAttribute('disabled', 'disabled');
+                }
+              }
+          
+              function submitData() {
+                var userData = document.querySelector('.next-text6').value;
+          
+                if (userData.trim() !== '') {
+                  // Perform any actions with the user's data
+                  alert('Submitted data: ' + userData);
+          
+                  // You can redirect to the next page here if needed
+                  window.location.href = 'dashboard1.html';
+                } else {
+                  alert('Please enter data before submitting.');
+                }
+              }
+            </script>
+          
+         
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

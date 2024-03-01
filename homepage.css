@@ -1,0 +1,187 @@
+.homepage-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-snow-200);
+  width: 1440px;
+  height: 118px;
+}
+.about-us23,
+.contact-us26 {
+  position: absolute;
+  top: 70px;
+  left: 965px;
+}
+.contact-us26 {
+  left: 1123px;
+}
+.homepage-item,
+.homepage22 {
+  position: absolute;
+  top: 70px;
+  left: 775px;
+}
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.homepage-item {
+  top: 110px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: contain;
+  display: none;
+}
+.the-only-journey {
+  position: absolute;
+  top: 236px;
+  left: 185px;
+  font-size: var(--header1-size);
+  text-transform: capitalize;
+  color: var(--color-snow-200);
+  display: inline-block;
+  width: 708px;
+  height: 409px;
+}
+.cute-woman-meditation-yoga-car-icon {
+  position: absolute;
+  top: 118px;
+  left: 758px;
+  width: 633.1px;
+  height: 586.6px;
+  object-fit: contain;
+}
+.homepage-inner {
+  position: absolute;
+  top: 608px;
+  left: 365px;
+  border-radius: 50px;
+  background-color: #90e8fa;
+  width: 255px;
+  height: 75px;
+}
+.elevate-your-well-being,
+.get-started {
+  position: absolute;
+  top: 627px;
+  left: 416px;
+  font-size: var(--sub-heading-size);
+  text-align: center;
+  display: inline-block;
+  width: 163px;
+}
+.elevate-your-well-being {
+  top: 470px;
+  left: 109px;
+  font-size: var(--body-size);
+  color: var(--color-aquamarine);
+  white-space: pre-wrap;
+  width: 766px;
+}
+.homepage-child1,
+.homepage-child2,
+.homepage-child3 {
+  position: absolute;
+  top: 108.5px;
+  left: 772.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 145px;
+  height: 1px;
+}
+.homepage-child2,
+.homepage-child3 {
+  top: 107.5px;
+  left: 956.5px;
+  width: 130px;
+}
+.homepage-child3 {
+  left: 1125.5px;
+  width: 131px;
+}
+.healing-mantra-high-resolution-icon22 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 299px;
+  height: 147px;
+  object-fit: cover;
+}
+.homepage-child4 {
+  position: absolute;
+  top: 842px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1503px;
+  height: 310px;
+}
+.contact-us27 {
+  position: absolute;
+  top: 852px;
+  left: 24px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-piazzolla);
+  display: inline-block;
+  width: 268px;
+  height: 28px;
+}
+.email-id-healingmantragmail2 { 
+  top: 100px;
+  margin: 0;
+}
+.email-id-healingmantragmail-container2 {
+  position: absolute;
+  top: 850px;
+  left: 999px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-piazzolla);
+  display: inline-block;
+  width: 389px;
+  height: 73px;
+}
+.homepage21 {
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  height: 1047px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+@media screen and (max-width: 1200px) {
+  .homepage21 {
+    opacity: 0;
+  }
+  .homepage21.animate {
+    animation: 1s ease 0s 1 normal forwards slide-in-top;
+  }
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}

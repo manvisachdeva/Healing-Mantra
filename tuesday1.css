@@ -1,0 +1,495 @@
+.tuesday-frame-child {
+  height: 144px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.homepage-text,
+.homepage3 {
+  position: relative;
+  z-index: 1;
+}
+.homepage3 {
+  height: 35px;
+  display: inline-block;
+}
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+.homepage-text {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.empty-frame {
+  height: 39px;
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.about-us2 {
+  height: 35px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.about-us-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.contact-us-text {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.line {
+  height: 38px;
+  width: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.contact-us3,
+.mindfulness-benefits-rectangle {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.contact-us3 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--header1);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  height: 35px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+  white-space: nowrap;
+}
+.mindfulness-benefits-rectangle {
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.logo-rectangle {
+  height: 38px;
+  width: 133px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.healing-mantra-high-resolution-icon2 {
+  width: 299px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -3px;
+  left: 69px;
+  height: 147px;
+  object-fit: cover;
+  z-index: 1;
+}
+.tuesday-frame {
+  align-self: stretch;
+  height: 144px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-14xl) var(--padding-xl) var(--padding-14xl)
+    var(--padding-590xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.download-premium-vector-of-gra-icon1 {
+  position: absolute;
+  height: calc(100% - 0.2px);
+  top: 0;
+  bottom: 0.2px;
+  left: 410px;
+  border-radius: var(--br-472xl-5);
+  max-height: 100%;
+  width: 1126.5px;
+  object-fit: contain;
+}
+.benefits-of-mindfulness-prezi-icon {
+  position: absolute;
+  top: 157px;
+  left: 0;
+  width: 762px;
+  height: 782px;
+  object-fit: cover;
+  z-index: 1;
+}
+.download-vector-rectangle {
+  width: 1537px;
+  height: 1045px;
+  position: absolute;
+  margin: 0 !important;
+  right: -135px;
+  bottom: 212px;
+}
+.colour-of-the1,
+.day-2 {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.day-2 {
+  height: 194px;
+  width: 412px;
+  flex-shrink: 0;
+  min-width: 412px;
+}
+.colour-of-the1 {
+  margin: 0;
+  width: 424px;
+  height: 48px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.mindful-breathing-exercisemed1 {
+  align-self: stretch;
+  height: 77px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.healthy-breakfast1 {
+  height: 90px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.healthy-breakfast-wrapper {
+  width: 413px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.gardening1 {
+  height: 39px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.gardening-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.write-your-thoughts {
+  height: 39px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.frame-div,
+.healing-process-reminder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-74xl);
+  max-width: 100%;
+}
+.healing-process-reminder {
+  width: 582px;
+  gap: var(--gap-40xl);
+}
+.journal-text {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.color-of-the-day-text,
+.healthy-breakfast-text,
+.journal-text {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.healthy-breakfast-text {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-305xl);
+  min-width: 420px;
+  font-size: var(--font-size-21xl);
+}
+.color-of-the-day-text {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-125xl);
+}
+.blank-line1,
+.healing-is-not {
+  margin: 0;
+}
+.healing-is-not-container {
+  margin: 0;
+  align-self: stretch;
+  height: 156px;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.color-of-the-day-child {
+  height: 64px;
+  width: 236px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.next1 {
+  height: 42px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--header1);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.color-of-the-day {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-35xl) var(--padding-2xs)
+    var(--padding-62xl);
+  background-color: var(--color-gainsboro);
+  width: 236px;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.color-of-the-day:hover {
+  background-color: var(--color-silver);
+}
+.healing-process {
+  width: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.daily-mindfulness {
+  width: 1006px;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-patua-one);
+}
+.daily-mindfulness,
+.day-text,
+.day-text-wrapper,
+.tuesday1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.day-text {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-74xl);
+  max-width: 100%;
+}
+.day-text-wrapper,
+.tuesday1 {
+  box-sizing: border-box;
+}
+.day-text-wrapper {
+  width: 1302px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-31xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.tuesday1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslateblue-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 88px;
+  gap: var(--gap-26xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-109xl);
+  color: var(--color-lightcoral);
+  font-family: var(--font-bebas-neue);
+}
+@media screen and (max-width: 1200px) {
+  .tuesday-frame {
+    padding-left: var(--padding-285xl);
+    box-sizing: border-box;
+  }
+  .color-of-the-day-text {
+    gap: var(--gap-53xl);
+  }
+  .day-text-wrapper {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .day-2 {
+    font-size: var(--font-size-32xl);
+    flex: 1;
+  }
+  .colour-of-the1 {
+    font-size: var(--font-size-13xl);
+  }
+  .color-of-the-day-text {
+    flex-wrap: wrap;
+  }
+  .healing-is-not-container {
+    font-size: var(--font-size-13xl);
+  }
+  .next1 {
+    font-size: var(--font-size-5xl);
+  }
+  .daily-mindfulness {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .tuesday-frame {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-133xl);
+    box-sizing: border-box;
+  }
+  .day-2 {
+    min-width: 100%;
+  }
+  .healing-process-reminder {
+    gap: var(--gap-10xl);
+  }
+  .healthy-breakfast-text {
+    gap: var(--gap-143xl);
+    min-width: 100%;
+  }
+  .color-of-the-day-text {
+    gap: var(--gap-17xl);
+  }
+  .day-text {
+    gap: var(--gap-27xl);
+  }
+  .tuesday1 {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .tuesday-frame {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .day-2 {
+    font-size: var(--font-size-13xl);
+  }
+  .colour-of-the1 {
+    font-size: var(--font-size-5xl);
+  }
+  .gardening1,
+  .healthy-breakfast1,
+  .mindful-breathing-exercisemed1,
+  .write-your-thoughts {
+    font-size: var(--font-size-3xl);
+  }
+  .frame-div {
+    gap: var(--gap-27xl);
+  }
+  .healthy-breakfast-text {
+    gap: var(--gap-62xl);
+  }
+  .color-of-the-day-text {
+    gap: var(--gap-lg);
+  }
+  .healing-is-not-container {
+    font-size: var(--font-size-5xl);
+  }
+  .next1 {
+    font-size: var(--font-size-lg);
+  }
+  .color-of-the-day {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .day-text {
+    gap: var(--gap-4xl);
+  }
+}

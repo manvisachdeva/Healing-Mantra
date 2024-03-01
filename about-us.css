@@ -1,0 +1,237 @@
+.about-us-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-snow-200);
+  width: 1440px;
+  height: 118px;
+}
+.about-us21 {
+  position: absolute;
+  top: 344px;
+  left: calc(50% - 605px);
+  font-size: 96px;
+  text-transform: capitalize;
+  text-align: center;
+  display: inline-block;
+  width: 465px;
+  height: 135px;
+}
+.about-us-item {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: contain;
+  display: none;
+}
+.removebg-preview-1-icon2 {
+  position: absolute;
+  top: 145px;
+  left: 573px;
+  width: 784px;
+  height: 612px;
+  object-fit: cover;
+}
+.adobestock-268964748-scaled-11-icon {
+  position: absolute;
+  top: 907px;
+  left: 607px;
+  width: 765px;
+  height: 397px;
+  object-fit: cover;
+}
+.vision-and-values {
+  position: absolute;
+  top: 858px;
+  left: 113px;
+  font-size: var(--header1-size);
+  text-transform: capitalize;
+  text-align: center;
+}
+.inspiring-minds-one {
+  position: absolute;
+  top: 960px;
+  left: 146px;
+  color: var(--color-aquamarine);
+  text-align: center;
+}
+.at-healing-mantra,
+.welcome-to-healing {
+  position: absolute;
+  top: 1044px;
+  left: 188px;
+  font-size: var(--body-size);
+  color: var(--color-mediumpurple);
+  display: inline-block;
+  width: 483px;
+  height: 156px;
+}
+.at-healing-mantra {
+  top: 1178px;
+  width: 464px;
+  height: 281px;
+}
+.how-we-help-removebg-preview-1-icon {
+  position: absolute;
+  top: 1200px;
+  left: 637px;
+  width: 802px;
+  height: 979px;
+  object-fit: cover;
+}
+.how-we-help {
+  position: absolute;
+  top: 1565px;
+  left: 114px;
+  font-size: var(--header1-size);
+  text-transform: capitalize;
+}
+.discover-strength-in {
+  position: absolute;
+  top: 1689px;
+  left: 91px;
+  color: var(--color-aquamarine);
+  text-align: center;
+  display: inline-block;
+  width: 500px;
+}
+.about-us22,
+.contact-us24,
+.homepage20 {
+  position: absolute;
+  top: 74px;
+  left: 964px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.contact-us24,
+.homepage20 {
+  left: 1122px;
+}
+.homepage20 {
+  left: 774px;
+}
+.about-us-child1,
+.about-us-child2,
+.about-us-inner {
+  position: absolute;
+  top: 108.5px;
+  left: 773.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 143px;
+  height: 1px;
+}
+.about-us-child1,
+.about-us-child2 {
+  left: 1121.5px;
+  width: 132px;
+}
+.about-us-child2 {
+  left: 963.5px;
+  width: 111px;
+}
+.begin-your-mental {
+  margin: 0;
+}
+.begin-your-mental-container {
+  position: absolute;
+  top: 1877px;
+  left: 188px;
+  color: var(--color-mediumpurple);
+  display: inline-block;
+  width: 968px;
+  height: 967px;
+}
+.data-driven-insights,
+.personalized-screening-test {
+  position: absolute;
+  top: 1877px;
+  left: 191px;
+  color: var(--color-mistyrose);
+}
+.data-driven-insights {
+  top: 2068px;
+  left: 188px;
+}
+.customized-timetable {
+  position: absolute;
+  top: 2259px;
+  left: 191px;
+}
+.daily-reminders-and,
+.progress-tracking {
+  position: absolute;
+  top: 2490px;
+  left: 188px;
+}
+.progress-tracking {
+  top: 2681px;
+}
+.healing-mantra-high-resolution-icon21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 299px;
+  height: 147px;
+  object-fit: cover;
+}
+.about-us-child3 {
+  position: absolute;
+  top: 2974px;
+  left: -32px;
+  background-color: var(--color-white);
+  width: 1503px;
+  height: 310px;
+}
+.contact-us25,
+.email-id-healingmantragmail-container1 {
+  position: absolute;
+  top: 3102px;
+  left: 1009px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-piazzolla);
+  color: var(--color-black);
+  display: inline-block;
+  width: 389px;
+  height: 73px;
+}
+.contact-us25 {
+  top: 2997px;
+  left: 94px;
+  width: 268px;
+  height: 28px;
+}
+.about-us20 {
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  height: 3238px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--sub-heading-size);
+  color: var(--color-snow-200);
+  font-family: var(--header1);
+}
+
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}

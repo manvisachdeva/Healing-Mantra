@@ -1,0 +1,286 @@
+.about-us15,
+.contact-us30,
+.homepage16 {
+  position: absolute;
+  top: 70px;
+  left: 965px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-patua-one);
+  color: var(--color-black);
+}
+.contact-us30,
+.homepage16 {
+  left: 1123px;
+}
+.homepage16 {
+  left: 775px;
+}
+.questions-child {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: contain;
+  display: none;
+}
+a:link {
+  color:black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.questions-child1,
+.questions-inner,
+.questions-item {
+  position: absolute;
+  top: 108.5px;
+  left: 772.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 145px;
+  height: 1px;
+}
+.questions-child1,
+.questions-inner {
+  top: 107.5px;
+  left: 956.5px;
+  width: 130px;
+}
+.questions-child1 {
+  left: 1125.5px;
+  width: 131px;
+}
+.healing-mantra-high-resolution-icon15 {
+  position: absolute;
+  top: 0;
+  left: 84px;
+  width: 299px;
+  height: 147px;
+  object-fit: cover;
+}
+.ellipse-icon,
+.questions-child2 {
+  position: absolute;
+  top: 457px;
+  left: -620px;
+  width: 1835px;
+  height: 830px;
+}
+.questions-child2 {
+  top: 1817px;
+  left: -618px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #efaaaa, rgba(217, 217, 217, 0));
+}
+.questions-child3,
+.submit {
+  position: absolute;
+  top: 5604px;
+  height: 166px;
+}
+.questions-child3 {
+  left: 440px;
+  background-color: var(--color-gainsboro);
+  width: 567px;
+}
+.submit {
+  left: 486px;
+  font-size: var(--font-size-109xl);
+  font-family: var(--font-rakkas);
+  color: var(--color-black);
+  display: inline-block;
+  width: 521px;
+}
+.a-energetic-and,
+.b-generally-okay,
+.blank-line,
+.blank-line1,
+.blank-line2,
+.c-low-energy,
+.how-would-you {
+  margin: 0;
+}
+.how-would-you-container {
+  position: absolute;
+  top: 532px;
+  left: 57px;
+  text-shadow: 1px 0 0#60dcd4, 0 1px 0#60dcd4, -1px 0 0#60dcd4, 0-1px 0#60dcd4;
+}
+.questions-child4,
+.questions-child5,
+.questions-child6 {
+  position: absolute;
+  top: 1895.3px;
+  left: 1922px;
+  border-radius: 50%;
+  background: linear-gradient(-2.49deg, #90e8bd, rgba(217, 217, 217, 0));
+  width: 1754px;
+  height: 705px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.questions-child5,
+.questions-child6 {
+  top: 3288px;
+}
+.questions-child6 {
+  top: 4716px;
+}
+.can-u-answer {
+  position: absolute;
+  top: 244px;
+  left: 141px;
+  font-size: var(--font-size-109xl);
+  text-decoration: underline;
+  font-family: var(--font-rakkas);
+}
+.questions-child7,
+.questions-child8 {
+  position: absolute;
+  top: 3274px;
+  left: -618px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #efaaaa, rgba(217, 217, 217, 0));
+  width: 1835px;
+  height: 830px;
+}
+.questions-child8 {
+  top: 4685px;
+  left: -520px;
+}
+.a-occasionally,
+.b-frequently,
+.blank-line3,
+.blank-line4,
+.blank-line5,
+.c-constantly,
+.have-you-experienced {
+  margin: 0;
+}
+.have-you-experienced-container {
+  position: absolute;
+  top: 1234px;
+  left: 53px;
+  display: inline-block;
+  width: 1459px;
+  height: 617px;
+}
+.a-no-not,
+.b-sometimes,
+.blank-line10,
+.blank-line6,
+.blank-line7,
+.blank-line8,
+.blank-line9,
+.c-often,
+.do-you-have {
+  margin: 0;
+}
+.do-you-have-container {
+  position: absolute;
+  top: 3987px;
+  left: 57px;
+  display: inline-block;
+  width: 1454px;
+}
+.a-occasionally1,
+.b-frequently1,
+.blank-line11,
+.blank-line12,
+.blank-line13,
+.blank-line14,
+.blank-line15,
+.c-always,
+.do-you-find,
+.in-risky-behaviors {
+  margin: 0;
+}
+.do-you-find-container {
+  position: absolute;
+  top: 4731px;
+  left: 53px;
+}
+.a-occasionally-difficulty,
+.b-frequently-difficulty,
+.blank-line16,
+.blank-line17,
+.blank-line18,
+.c-insomnia-almost,
+.have-you-had {
+  margin: 0;
+}
+.have-you-had-container {
+  position: absolute;
+  top: 1955px;
+  left: 57px;
+  display: inline-block;
+  width: 1394px;
+}
+.a-generally-stable,
+.b-fluctuating-with,
+.blank-line19,
+.blank-line20,
+.blank-line21,
+.c-chronically-depressed,
+.mood-over-the,
+.which-of-the {
+  margin: 0;
+}
+.which-of-the-container {
+  position: absolute;
+  top: 2647px;
+  left: 57px;
+}
+.a-low-to,
+.anxiety-in-the,
+.b-moderate-to,
+.blank-line22,
+.blank-line23,
+.blank-line24,
+.blank-line25,
+.blank-line26,
+.c-very-high,
+.how-would-you1 {
+  margin: 0;
+}
+.how-would-you-container1 {
+  position: absolute;
+  top: 3321px;
+  left: 57px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 2475px;
+  height: 443px;
+}
+.questions-child9 {
+  position: absolute;
+  top: 588px;
+  left: -40.9px;
+  width: 50.2px;
+  height: 100px;
+}
+.questions {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  height: 5870px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--header1);
+}

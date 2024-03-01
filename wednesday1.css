@@ -1,0 +1,496 @@
+.midweek-frame-child {
+  height: 144px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.homepage6 {
+  height: 35px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.main-frame-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+.main-frame {
+  height: 39px;
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.about-us5 {
+  height: 35px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.logo-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.colour-of-the-day {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.logo-frame-parent {
+  height: 38px;
+  width: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.contact-us6,
+.healing-mantra-high-resolution {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.contact-us6 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--header1);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  height: 35px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+  white-space: nowrap;
+}
+.healing-mantra-high-resolution {
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.separator-line {
+  height: 38px;
+  width: 133px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.healing-mantra-high-resolution-icon5 {
+  width: 299px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -3px;
+  left: 82px;
+  height: 147px;
+  object-fit: cover;
+  z-index: 1;
+}
+.midweek-frame {
+  align-self: stretch;
+  height: 144px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-16xl) var(--padding-xl) var(--padding-16xl)
+    var(--padding-590xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.day-3 {
+  width: 1023px;
+  height: 309px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 258%;
+}
+.green-colour {
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 396px;
+  max-width: 100%;
+}
+.colour-of-the4 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.cooking-instructions {
+  width: 477px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.pb-life-1634631285-removebg-pr-icon {
+  width: 853.5px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 121px;
+  left: -584px;
+  height: 836px;
+  object-fit: cover;
+}
+.download-premium-vector-of-gra-icon4 {
+  width: 863px;
+  height: 1134.4px;
+  position: relative;
+  border-radius: var(--br-472xl-5);
+  object-fit: contain;
+  display: none;
+  max-width: 100%;
+}
+.healthy-breakfast5,
+.play-your-favourite {
+  height: 40px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.healthy-breakfast5 {
+  width: 353px;
+  max-width: 100%;
+  z-index: 3;
+}
+.play-your-favourite {
+  align-self: stretch;
+  z-index: 2;
+}
+.healthy-breakfast-parent {
+  width: 408px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  max-width: 100%;
+}
+.cooking {
+  height: 39px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  z-index: 2;
+}
+.healthy-breakfast-and-sport {
+  flex: 1;
+  border-radius: var(--br-472xl-5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 485px var(--padding-150xl) 424px;
+  box-sizing: border-box;
+  gap: var(--gap-37xl);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 1;
+}
+.mindful-breathing-exercisemed4 {
+  height: 90px;
+  width: 712px;
+  position: absolute;
+  margin: 0 !important;
+  top: 395px;
+  right: -17px;
+  text-transform: capitalize;
+  display: inline-block;
+  z-index: 2;
+}
+.blank-line4,
+.your-mental-health {
+  margin: 0;
+}
+.your-mental-health-container {
+  margin: 0 !important;
+  height: 197px;
+  width: 720px;
+  position: absolute;
+  bottom: -109px;
+  left: -321px;
+  font-size: var(--font-size-21xl);
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: var(--font-patua-one);
+  color: var(--color-white);
+  display: inline-block;
+  z-index: 2;
+}
+.mental-health-investment {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--header1);
+}
+.day-frame,
+.favourite-sport,
+.healthy-breakfast4,
+.mental-health-investment {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.favourite-sport {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.day-frame,
+.healthy-breakfast4 {
+  align-items: flex-start;
+}
+.healthy-breakfast4 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 561px;
+  font-size: var(--font-size-21xl);
+}
+.day-frame {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-109xl);
+  color: var(--color-palegreen);
+  font-family: var(--font-bebas-neue);
+}
+.rectangle-div {
+  height: 64px;
+  width: 236px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.next5 {
+  height: 42px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--header1);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 4;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-35xl) var(--padding-2xs)
+    var(--padding-62xl);
+  background-color: var(--color-gainsboro);
+  width: 236px;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.rectangle-group:hover {
+  background-color: var(--color-silver);
+}
+.next-button1,
+.next-text {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.next-button1 {
+  width: 415px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.next-text {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-71xl);
+}
+.secondary-frame,
+.wednesday1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.secondary-frame {
+  width: 1272px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  max-width: 100%;
+}
+.wednesday1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 106px;
+  gap: var(--gap-32xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .midweek-frame {
+    padding-left: var(--padding-285xl);
+    box-sizing: border-box;
+  }
+  .healthy-breakfast-and-sport {
+    padding-top: 315px;
+    padding-bottom: 276px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .day-3 {
+    font-size: var(--font-size-32xl);
+  }
+  .green-colour {
+    flex: 1;
+  }
+  .colour-of-the4,
+  .your-mental-health-container {
+    font-size: var(--font-size-13xl);
+  }
+  .day-frame {
+    flex-wrap: wrap;
+  }
+  .next5 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .midweek-frame {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-133xl);
+    box-sizing: border-box;
+  }
+  .healthy-breakfast-and-sport {
+    gap: var(--gap-9xl);
+    padding: 205px var(--padding-65xl) 179px;
+    box-sizing: border-box;
+  }
+  .healthy-breakfast4 {
+    min-width: 100%;
+  }
+  .next-text {
+    gap: var(--gap-26xl);
+  }
+  .wednesday1 {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .midweek-frame {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .day-3 {
+    font-size: var(--font-size-13xl);
+  }
+  .green-colour {
+    min-width: 100%;
+  }
+  .colour-of-the4 {
+    font-size: var(--font-size-5xl);
+  }
+  .healthy-breakfast5,
+  .play-your-favourite {
+    font-size: var(--font-size-3xl);
+  }
+  .healthy-breakfast-parent {
+    gap: var(--gap-6xl);
+  }
+  .cooking {
+    font-size: var(--font-size-3xl);
+  }
+  .healthy-breakfast-and-sport {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .mindful-breathing-exercisemed4 {
+    font-size: var(--font-size-3xl);
+  }
+  .your-mental-health-container {
+    font-size: var(--font-size-5xl);
+  }
+  .next5 {
+    font-size: var(--font-size-lg);
+  }
+  .rectangle-group {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .next-text {
+    gap: var(--gap-3xl);
+  }
+}
